@@ -773,8 +773,8 @@ h4 {
 
 .grey-background {
     background-color: rgb(100, 100, 100);
-    margin: 0 260px;
     padding: 15px 0;
+    position: inherit;
 }
 
 .bold-link {
@@ -997,6 +997,9 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    .bloc-2-top {
+        margin: 0;
     }
     .bloc-xxl,
     .bloc-xl,
